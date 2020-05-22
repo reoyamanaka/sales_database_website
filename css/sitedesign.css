@@ -1,0 +1,60 @@
+body{
+  background-color: #97CAEF;
+  text-align: center;
+}
+
+td{
+//background-color:#ff0000;
+text-align:center;
+}
+
+input {
+  background-color: #B3E8FF;
+}
+
+select {
+  background-color: #B3E5FC;
+  text-align:center;
+}
+h2 {
+  text-align: center;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #97CAEF;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #964000;
+  color: white;
+}
+
+.container-1{
+  text-align: center;
+}
+
+option {
+  text-align: center;
+}
+.center-message {
+  text-align: center;
+}

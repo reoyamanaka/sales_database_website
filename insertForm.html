@@ -1,0 +1,57 @@
+<head>
+  <title>Insert Item Page</title>
+    <link type = "text/css" href="css/sitedesign.css" rel="stylesheet"/>
+<head>
+  <div class="topnav">
+    <a href="delete.html">Delete</a>
+    <a href="filtermain.html">Filter Listing</a>
+    <a href="update.html">Update</a>
+    <a class="active" href="insertForm.html">Insert</a>
+    <a href="index.php">Complete Listing</a>
+  </div>
+<body>
+  <h2>Insert A New Item</h2>
+  <head>
+    <link rel="stylesheet" href="css/sitedesign.css">
+  </head>
+  <table style="width:100%">
+    <tr>
+      <th>Item</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th>Status</th>
+      <th>Date posted</th>
+      <th>Date sold</th>
+      <th>Payment method</th>
+    </tr>
+    <tr>
+    <form action="insert.php" method="post">
+      <td><input type="text" id="item" name="item" value=""></td>
+      <td><input type="text" id="description" name="description" value=""></td>
+      <td><input type="text" id="price" name="price" value=""></td>
+      <td> <select name="status">
+          <option>Unsold</option>
+          <option>Sold</option>
+        </select></td>
+      <td><input type="text" name="date_posted" value=""></td>
+      <td><input type="text" name="date_sold" value=""></td>
+      <td>
+        <div class="options">
+        <select name="payment_method">
+          <option>N/A</option>
+          <option>Cash</option>
+          <option>Venmo</option>
+          <option>Check</option>
+          <option>Credit Card</option>
+          <option>Debit Card</option>
+        </select>
+        </div>
+      </td>
+
+      </tr>
+      <tr></tr><tr></tr>
+      <tr><td><input type="submit" value="Insert"></td></tr>
+
+  </form>
+  </table>
+</body>

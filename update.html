@@ -1,0 +1,40 @@
+<head>
+  <title>Update Item Page</title>
+    <link type = "text/css" href="css/sitedesign.css" rel="stylesheet"/>
+<head>
+  <div class="topnav">
+    <a href="delete.html">Delete</a>
+    <a href="filtermain.html">Filter Listing</a>
+    <a class="active" href="update.html">Update</a>
+    <a href="insertForm.html">Insert</a>
+    <a href="index.php">Complete Listing</a>
+  </div>
+<body>
+  <h2>Update Form</h2>
+  <div class="container-1">
+    Has a listed item been sold? Update its info here.<br><br>
+    <form action="editpage.php" method="post">
+    ID of item to edit:
+      <input type="int" id="id_number" name="id_number" value="" size="3">&emsp;
+    Actual selling price:
+      <td><input type="text" id="price" name="price" value="" size="4"></td>
+    New Status:
+      <td><select name="status">
+        <option>Unsold</option>
+        <option>Sold</option>
+      </select></td>&emsp;
+    Date sold:
+      <td><input type="text" name="date_sold" value=""></td>&emsp;
+    Payment Method:
+    <td><select name="payment_method">
+        <option>N/A</option>
+        <option>Cash</option>
+        <option>Venmo</option>
+        <option>Check</option>
+        <option>Credit Card</option>
+        <option>Debit Card</option>
+      </select></td>
+    <input type="submit" value="Update">
+    </form>
+  </div>
+</body>

@@ -1,0 +1,58 @@
+<head>
+  <title>Filter Listing Page</title>
+    <link type = "text/css" href="css/sitedesign.css" rel="stylesheet"/>
+<head>
+  <div class="topnav">
+    <a href="delete.html">Delete</a>
+    <a class="active" href="filtermain.html">Filter Listing</a>
+    <a href="update.html">Update</a>
+    <a href="insertForm.html">Insert</a>
+    <a href="index.php">Complete Listing</a>
+  </div>
+
+<div class="container-1">
+  <h2>Filter Options</h2>
+
+  <h3>a. Filter by Price</h3>
+  <form action="filter_price.php" method="post">
+    Enter Max Price: <input type="float" id="max_price" name="max_price" value="" size="3">
+    Enter Min Price: <input type="float" id="min_price" name="min_price" value="" size="3">
+    <input type="submit" value="Filter">
+  </form>
+  <br>
+
+  <h3>b. Filter by Status</h3>
+  <form action="filter_status.php" method="post">
+    Only show items that are: <select name="filter_status">
+      <option>Unsold</option>
+      <option>Sold</option>
+    </select>
+    <input type="submit" value="Filter">
+  </form>
+  <br>
+
+  <h3>c. Filter by Payment Method</h3>
+  <form action="filter_payment.php" method="post">
+    Only show items that were payed in: <select name="filter_payment">
+      <option>N/A</option>
+      <option>Cash</option>
+      <option>Venmo</option>
+      <option>Check</option>
+      <option>Credit Card</option>
+      <option>Debit Card</option>
+    </select>
+    <input type="submit" value="Filter">
+  </form>
+  <br>
+
+  <h3>d. Filter by Date Posted (Newest to Oldest)</h3>
+  <form action="filter_date_posted.php" method="post">
+    <input type="submit" value="Filter">
+  </form>
+  <br>
+
+  <h3>d. Filter by Date Sold (Most to Least to Recent)</h3>
+  <form action="filter_date_sold.php" method="post">
+    <input type="submit" value="Filter">
+  </form>
+</div>

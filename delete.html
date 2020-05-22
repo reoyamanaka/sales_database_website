@@ -1,0 +1,26 @@
+<head>
+  <title>Delete Item Page</title>
+    <link type = "text/css" href="css/sitedesign.css" rel="stylesheet"/>
+<head>
+  <div class="topnav">
+    <a class="active" href="delete.html">Delete</a>
+    <a href="filtermain.html">Filter Listing</a>
+    <a href="update.html">Update</a>
+    <a href="insertForm.html">Insert</a>
+    <a href="index.php">Complete Listing</a>
+  </div>
+
+<h2>Delete an Item</h2>
+<div class="container-1">
+<h3>Instructions:</h3>
+  1. View Complete Listing<br><br><br>
+  2. Identify ID of item to be deleted<br><br><br>
+  3. Enter ID and press "Delete"<br><br><br>
+
+<form action="deleteprocess.php" method="post">
+  ID of item to be deleted:
+  <input type="int" id="id_number" name="id_number" value="" size="3">
+  <input type="submit" value="Delete">
+</form>
+</body>
+</div>
