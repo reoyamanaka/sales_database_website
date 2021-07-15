@@ -86,7 +86,7 @@ git clone https://github.com/reoyamanaka/sales_database_website.git
 ```
 2. Launch AMPPS, start Apache and MySQL
 <p align="center">
-  <img src="images/ampps_init.png" width="133" height="261">
+  <img src="images/ampps_init.png">
 </p>
 
 3. Access phpMyAdmin (localhost/phpmyadmin) and create a new database called `sales_database`. Create a user with all privileges and type in the appropriate database name (`sales_database`), username and password into the .php files.
