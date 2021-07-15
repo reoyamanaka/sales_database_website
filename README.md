@@ -102,7 +102,7 @@ git clone https://github.com/reoyamanaka/sales_database_website.git
 <div align="center">
   <strong>YouTube Demo</strong><br>
   <a href="https://www.youtube.com/watch?v=TNc0G3Gmi5E">
-    <img src="http://i3.ytimg.com/vi/TNc0G3Gmi5E/hqdefault.jpg" alt="Thumbnail" width="560" height="315">
+    <img src="http://i3.ytimg.com/vi/TNc0G3Gmi5E/hqdefault.jpg" alt="Thumbnail">
   </a>
 </div>
 
