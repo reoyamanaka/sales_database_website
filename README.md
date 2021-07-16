@@ -66,7 +66,6 @@
 ### Built With
 
 * PHP 7.3.11
-* macOS High Sierra Version 10.13.6
 * AMPPS 3.9
 * Adobe Illustrator Version 23.1 (Logo design)
 
